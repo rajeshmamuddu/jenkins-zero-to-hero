@@ -39,6 +39,7 @@ pipeline {
         }
       }
     stage('Update Deployment File') {
+       steps {
         echo "Deploying on process"
     }
     }
